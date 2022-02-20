@@ -1,7 +1,7 @@
 provider "google" {
   # version = "3.5.0" Deprecated
 
-  credentials = file(var.credentials_file)
+  # credentials = file(var.credentials_file)
 
   project = var.project
   region  = var.region
